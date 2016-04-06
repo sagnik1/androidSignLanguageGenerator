@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.souravi.signgenerator">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <!-- To auto-complete the email text field in the Login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon1"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".Category"
+            android:label="@string/title_activity_category"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Family"
+            android:label="@string/title_activity_family"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar">
+            <!--    <intent-filter>
+                   <action android:name="android.intent.action.MAIN" />
+
+                   <category android:name="android.intent.category.LAUNCHER" />
+               </intent-filter>
+               -->
+
+           </activity>
+           <activity
+               android:name=".Register"
+               android:label="@string/title_activity_register"
+               android:theme="@style/AppTheme.NoActionBar" />
+           <activity
+               android:name=".Place"
+               android:label="@string/title_activity_place"
+               android:theme="@style/AppTheme.NoActionBar" />
+           <activity
+               android:name=".Time"
+               android:label="@string/title_activity_time"
+               android:theme="@style/AppTheme.NoActionBar" />
+           <activity
+               android:name=".Temp"
+               android:label="@string/title_activity_temp"
+               android:theme="@style/AppTheme.NoActionBar" />
+           <activity
+               android:name=".Food"
+               android:label="@string/title_activity_food"
+               android:theme="@style/AppTheme.NoActionBar" />
+           <activity
+               android:name=".Clothe"
+               android:label="@string/title_activity_clothe"
+               android:theme="@style/AppTheme.NoActionBar" />
+           <activity
+               android:name=".Health"
+               android:label="@string/title_activity_health"
+               android:theme="@style/AppTheme.NoActionBar" />
+           <activity
+               android:name=".Feel"
+               android:label="@string/title_activity_feel"
+               android:theme="@style/AppTheme.NoActionBar" />
+           <activity
+               android:name=".Request"
+               android:label="@string/title_activity_request"
+               android:theme="@style/AppTheme.NoActionBar" />
+           <activity
+               android:name=".Amount"
+               android:label="@string/title_activity_amount"
+               android:theme="@style/AppTheme.NoActionBar" />
+           <activity
+               android:name=".Color"
+               android:label="@string/title_activity_color"
+               android:theme="@style/AppTheme.NoActionBar" />
+           <activity
+               android:name=".Money"
+               android:label="@string/title_activity_money"
+               android:theme="@style/AppTheme.NoActionBar" />
+           <activity
+               android:name=".Animal"
+               android:label="@string/title_activity_animal"
+               android:theme="@style/AppTheme.NoActionBar" />
+           <activity
+               android:name=".Splashscreen"
+               android:label="@string/title_activity_splashscreen"
+               android:theme="@android:style/Theme.Black.NoTitleBar">
+               <intent-filter>
+                   <action android:name="android.intent.action.MAIN" />
+
+                   <category android:name="android.intent.category.LAUNCHER" />
+               </intent-filter>
+    </activity>
+
+       </application>
+
+   </manifest>
